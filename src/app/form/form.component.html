@@ -1,8 +1,10 @@
 <div class="container-fluid">
     <h1>Enter Your GitHub information</h1>
     <form>
-        <label>GitHub Username</label>
-        <input type="text">
-        <button type="submit">SUBMIT</button>
+        <div class="form-group">
+            <label>GitHub Username</label>
+            <input type="text" [(ngModel)]="username" name="username">
+            <button type="submit">SEARCH</button>
+        </div>
     </form>
 </div>
