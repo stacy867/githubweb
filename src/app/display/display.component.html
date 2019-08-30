@@ -1,3 +1,8 @@
-<p>
-  display works!
-</p>
+<div>
+
+    <p>display works!</p>
+    {{myUsers.name}} <br> <img src="{{myUsers.avatar}}">
+</div>
+<div *ngFor='let r of myrepos'>
+    {{r.name}} <br> {{r.description}}
+</div>
