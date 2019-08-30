@@ -3,8 +3,9 @@
     <form>
         <div class="form-group">
             <label>GitHub Username</label>
-            <input type="text" [(ngModel)]="username" name="username">
-            <button type="submit">SEARCH</button>
+            <input #input type="text" name="username">
+            <button (click)="adduser(input.value)">SEARCH</button>
         </div>
+        {{form}}
     </form>
-</div>
+    <!-- </div>type="submit" routerLink="/display" routerLinkActive='active' -->

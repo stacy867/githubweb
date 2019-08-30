@@ -1,3 +1,3 @@
-export class User {
+export class user {
   constructor(public username: string) {}
 }
