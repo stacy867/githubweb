@@ -1,0 +1,12 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+
+/* #container {
+    margin-left: 30%;
+    overflow-x: hidden;
+} */

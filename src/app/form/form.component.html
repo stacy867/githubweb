@@ -1,13 +1,18 @@
-<div class="container-fluid">
+<div class="container-fluid" id="container">
+    <div class="jumbotron">
+        <img>
+    </div>
     <h1>Enter Your GitHub information</h1>
-    <div>
-        <div class="form-group">
-            <label>GitHub Username</label>
-            <input #input type="text" name="username">
-            <button (click)="goToUrl(input.value)">SEARCH</button>
-            <!-- <button (click)="accessurl()" routerLink="/display" routerLinkActive='active'>SEARCH</button> -->
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label>GitHub Username</label>
+                <input #input type="text" name="username"><br><br>
+                <button (click)="goToUrl(input.value)">SEARCH</button>
+
+            </div>
+            {{form}}
         </div>
-        {{form}}
     </div>
 </div>
-<!-- </div>type="submit"  -->
