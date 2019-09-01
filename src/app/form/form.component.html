@@ -1,14 +1,13 @@
 <div class="container" id="container">
-    <div class="jumbotron">
-        <!-- <img src="http://news.efinancialcareers.com/binaries/content/gallery/efinancial-careers/articles/2019/04/github.jpg"> -->
+    <div>
+        <img src="https://cdn.pixabay.com/photo/2014/07/15/23/36/github-394322_960_720.png">
     </div>
     <h1>Enter Your GitHub information</h1>
 
-    <div class="form-group">
-        <label>GitHub Username</label>
-        <input #input type="text" name="username"><br><br>
+    <div id="form" class="form-group">
+        <label>GitHub Username: </label>
+        <input class="form-control" height="150" #input type="text" name="username"><br><br>
         <button (click)="goToUrl(input.value)">SEARCH</button>
-
     </div>
     <!-- {{form}} -->
 </div>

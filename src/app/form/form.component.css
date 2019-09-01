@@ -1,15 +1,16 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 input {
-    width: 50%;
+    /* width: 70%; */
     border: 1px solid black;
     border-radius: 5%;
 }
 
 button {
-    margin-left: 3%;
+    margin-left: 1%;
     border: 0px solid;
-    height: 50px;
+    background-color: rgb(60, 114, 116);
+    height: 30px;
     width: 100px;
     border-radius: 10%;
     font-family: 'Fjalla One', sans-serif;
@@ -20,7 +21,14 @@ button {
     background-color: white;
 } */
 
-#form,
+#form {
+    border: 0px solid;
+    height: 200px;
+    width: 100%;
+    padding: 5%;
+    background-color: rgb(245, 239, 239);
+}
+
 h1,
 label {
     font-family: 'Fjalla One', sans-serif;
