@@ -1,4 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 input {
     width: 50%;
     border: 1px solid black;
@@ -6,22 +7,24 @@ input {
 }
 
 button {
-    margin-left: 5%;
-    border: 1px solid;
+    margin-left: 3%;
+    border: 0px solid;
     height: 50px;
     width: 100px;
-    border-radius: 15%;
+    border-radius: 10%;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 
 /* .jumbotron {
     background-color: white;
-}
+} */
 
 #form,
-h1 {
-    text-align: center;
-} */
+h1,
+label {
+    font-family: 'Fjalla One', sans-serif;
+}
 
 img {
     margin-right: 2%;
