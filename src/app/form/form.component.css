@@ -23,7 +23,7 @@ button {
 
 #form {
     border: 0px solid;
-    height: 200px;
+    height: 550px;
     width: 100%;
     padding: 5%;
     background-color: rgb(245, 239, 239);
@@ -36,6 +36,13 @@ label {
 
 img {
     margin-right: 2%;
+}
+
+body {
+    background-image: url("https://hackernoon.com/hn-images/1*tTSlpu3Q6ibx4_8kCJ0BEg.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
 }
 
 
