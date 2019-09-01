@@ -10,13 +10,15 @@ import { AppComponent } from "./app.component";
 import { DisplayComponent } from "./display/display.component";
 import { FormComponent } from "./form/form.component";
 import { ParentComponent } from "./parent/parent.component";
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
     ParentComponent,
-    DisplayComponent
+    DisplayComponent,
+    DateCountPipe
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

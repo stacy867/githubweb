@@ -1,10 +1,30 @@
-<div>
+<div class="container">
+    <div class="row">
 
-    <p>display works!</p>
-    {{myUsers.name}} <br>
-    <img src="{{myUsers.avatar}}"><br> {{myUsers.id}}
-    <br> {{myUsers.repos}}
-</div>
-<div *ngFor='let r of myrepos'>
-    {{r.name}} <br> {{r.description}}
+        <div class="col-md-4 card">
+            <div class="card-body">
+
+                <p>display works!</p>
+                {{myUsers.name}} <br>
+                <img src="{{myUsers.avatar}}" width="90%"><br> {{myUsers.id}}
+                <br> {{myUsers.repos}}
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="table table-striped card">
+                <div class="card-body">
+                    <div *ngFor='let r of myrepos'>
+                        <table class="table">
+                            <tr>
+                                <td>{{r.name}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{r.description}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
