@@ -1,18 +1,14 @@
-<div class="container-fluid" id="container">
+<div class="container" id="container">
     <div class="jumbotron">
-        <img>
+        <!-- <img src="http://news.efinancialcareers.com/binaries/content/gallery/efinancial-careers/articles/2019/04/github.jpg"> -->
     </div>
     <h1>Enter Your GitHub information</h1>
 
-    <div class="row">
-        <div class="col-md-8">
-            <div class="form-group">
-                <label>GitHub Username</label>
-                <input #input type="text" name="username"><br><br>
-                <button (click)="goToUrl(input.value)">SEARCH</button>
+    <div class="form-group">
+        <label>GitHub Username</label>
+        <input #input type="text" name="username"><br><br>
+        <button (click)="goToUrl(input.value)">SEARCH</button>
 
-            </div>
-            {{form}}
-        </div>
     </div>
+    <!-- {{form}} -->
 </div>

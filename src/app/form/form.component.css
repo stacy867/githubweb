@@ -1,8 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 input {
-    width: 100%;
+    width: 50%;
     border: 1px solid black;
     border-radius: 5%;
+}
+
+button {
+    margin-left: 10%;
+}
+
+
+/* .jumbotron {
+    background-color: white;
+}
+
+#form,
+h1 {
+    text-align: center;
+} */
+
+img {
+    margin-right: 2%;
 }
 
 

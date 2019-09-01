@@ -3,23 +3,13 @@ import { HttpClient } from "@angular/common/http";
 import { environment } from "../environments/environment";
 import { user } from "./user";
 import { Repository } from "./repository";
-// import { resolve } from "dns";
-// import { reject } from "q";
-// import { THIS_EXPR } from "@angular/compiler/src/output/output_ast";
-
-// import "rxjs/add/operator/map";
 @Injectable({
   providedIn: "root"
 })
 export class ProfileService {
   myUser: user;
   myrepo: Repository[];
-  // getUser() {
-  //   return 0;
-  // }
-  // name: user;
-  // private name: string;
-  // private clientid = "";
+  
 
   constructor(private http: HttpClient) {
     this.myUser = new user(0, "", "", 0);
