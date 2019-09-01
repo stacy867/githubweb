@@ -6,7 +6,11 @@ input {
 }
 
 button {
-    margin-left: 10%;
+    margin-left: 5%;
+    border: 1px solid;
+    height: 50px;
+    width: 100px;
+    border-radius: 15%;
 }
 
 
