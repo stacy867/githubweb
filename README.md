@@ -16,11 +16,16 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## BDD
 
-# Behaviour
+## Behaviour
 The user is able to search for a github username and the system will display all his or her repositories and the user's profile
 
-# Inputs
+## Inputs
 The user inputs the github username
+
+## Outputs
+the system will display a username github repository account
+
+## Technologies used
 
 ## Running unit tests
 
